@@ -4,6 +4,9 @@ const ContactForm = () =>(
 
     <div className="card">
         <div className="conatiner">
+        <header class="card-title">
+     <h2>Contact</h2>
+   </header>
           <form className="form">
         <div>
         <h5>Name</h5>

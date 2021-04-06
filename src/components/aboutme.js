@@ -1,13 +1,26 @@
 import React from 'react'
 import ProfilePicture from './profilePicture'
-// import styled from "styled-components"
+import styled from "styled-components"
+const Div = styled.div`
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left:70px;
+  margin-right:70px;
+`
+const H2 = styled.h2`
+  color: #99b5b9
+`
+
 
 
 const AboutMe = () => (
  
    
-
+  <Div className="card">
       <div className="container">
+      <header class="card-title">
+     <H2>About Me</H2>
+   </header>
         <div className="row">
          <ProfilePicture />
           <div className="col-md-8">
@@ -32,6 +45,7 @@ const AboutMe = () => (
           </div>
         </div>
       </div>
+    </Div>
   
 
 )
