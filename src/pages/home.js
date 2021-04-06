@@ -1,7 +1,8 @@
 import React from 'react'
+import CardBody from '../components/cardBody'
 
 const Home = () => (
-  <div>HOME</div>
+  <CardBody />
 )
 
 export default Home

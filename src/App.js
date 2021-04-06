@@ -3,15 +3,16 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Nav from "./components/nav"
+import Navbar from "./components/nav"
 import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
 import Contact from "./pages/contact"
+import PageFooter from "./components/footer"
 
 function App() {
   return (
     <Router>
-    <Nav />
+    <Navbar />
     <Switch>
       <Route path="/contact">
         <Contact />
@@ -23,6 +24,7 @@ function App() {
         <Home />
       </Route>
     </Switch>
+    <PageFooter />
   </Router>
   );
 }
