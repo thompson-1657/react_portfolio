@@ -8,6 +8,7 @@ import Home from "./pages/home"
 import Portfolio from "./pages/portfolio"
 import Contact from "./pages/contact"
 import PageFooter from "./components/footer"
+import "../src/App.css"
 
 function App() {
   return (
