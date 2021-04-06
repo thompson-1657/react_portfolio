@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.58ba39e4.chunk.css",
+    "main.js": "/my-app/static/js/main.804da921.chunk.js",
+    "main.js.map": "/my-app/static/js/main.804da921.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.0bb1cdf0.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.0bb1cdf0.js.map",
+    "static/js/2.a6f66ef0.chunk.js": "/my-app/static/js/2.a6f66ef0.chunk.js",
+    "static/js/2.a6f66ef0.chunk.js.map": "/my-app/static/js/2.a6f66ef0.chunk.js.map",
+    "static/js/3.5d68b2ba.chunk.js": "/my-app/static/js/3.5d68b2ba.chunk.js",
+    "static/js/3.5d68b2ba.chunk.js.map": "/my-app/static/js/3.5d68b2ba.chunk.js.map",
+    "index.html": "/my-app/index.html",
+    "static/css/main.58ba39e4.chunk.css.map": "/my-app/static/css/main.58ba39e4.chunk.css.map",
+    "static/js/2.a6f66ef0.chunk.js.LICENSE.txt": "/my-app/static/js/2.a6f66ef0.chunk.js.LICENSE.txt",
+    "static/media/Thompson_2021.92006dc9.pdf": "/my-app/static/media/Thompson_2021.92006dc9.pdf",
+    "static/media/burger.acec1b8a.png": "/my-app/static/media/burger.acec1b8a.png",
+    "static/media/coding_adventure.e6462133.png": "/my-app/static/media/coding_adventure.e6462133.png",
+    "static/media/coding_quiz.647ab949.png": "/my-app/static/media/coding_quiz.647ab949.png",
+    "static/media/corona_showdown.7265ea4f.png": "/my-app/static/media/corona_showdown.7265ea4f.png",
+    "static/media/profilepic.305c120d.jpeg": "/my-app/static/media/profilepic.305c120d.jpeg",
+    "static/media/weather_dashboard.e0ff2459.png": "/my-app/static/media/weather_dashboard.e0ff2459.png",
+    "static/media/work_day_scheduler.c540c2b5.png": "/my-app/static/media/work_day_scheduler.c540c2b5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bb1cdf0.js",
+    "static/js/2.a6f66ef0.chunk.js",
+    "static/css/main.58ba39e4.chunk.css",
+    "static/js/main.804da921.chunk.js"
+  ]
+}
