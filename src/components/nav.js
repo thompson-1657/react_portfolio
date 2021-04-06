@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from "styled-components"
 
+
 const Nav = styled.nav`
     background-color: #99b5b9;
 `
@@ -24,7 +25,7 @@ const Button = styled.button`
         </Button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
             <li className="nav-item">
                  <Link to="/" className="nav-link" aria-current="page" href="#">Home</Link>
             </li>

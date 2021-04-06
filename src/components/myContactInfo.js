@@ -24,9 +24,9 @@ const MyContactInfo = () =>(
       <P class="contactMe">Resume: <A href={Pdf}
           target="_blank">Download
           Here</A></P>
-      <P class="contactMe">GitHub: <A href="https://github.com/thompson-1657"
+      <P class="contactMe"><i class="fab fa-github fa-lg"></i>:  <A href="https://github.com/thompson-1657"
           target="_blank">https://github.com/thompson-1657</A></P>
-      <P class="contactMe">LinkedIn: <A href="https://www.linkedin.com/in/rachel-thompson1657"
+      <P class="contactMe"><i class="fab fa-linkedin fa-lg"></i>:  <A href="https://www.linkedin.com/in/rachel-thompson1657"
           target="_blank">https://www.linkedin.com/in/rachel-thompson1657</A></P>
     </div>
   </Div>
