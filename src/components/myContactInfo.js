@@ -1,20 +1,35 @@
 import React from "react"
 import Pdf from "../documents/Thompson_2021.pdf"
+import styled from "styled-components"
+
+const P = styled.p`
+text-align: right;
+  color: #99b5b9;
+  font-size:18px;
+`
+const Div = styled.div`
+  margin-left: 60%;
+  background-color: white;
+`
+const A = styled.a`
+color: #99b5b9;
+font-size:18px;
+`
 
 const MyContactInfo = () =>(
-    <div class="card" id="contact-me">
+    <Div class="card" id="contact-me">
     <div class="card-body">
-      <p class="contactMe">Email: Thompson.1657@gmail.com</p>
-      <p class="contactMe">Phone: (330) 221-XXXX</p>
-      <p class="contactMe">Resume: <a href={Pdf}
+      <P class="contactMe">Email: Thompson.1657@gmail.com</P>
+      <P class="contactMe">Phone: (330) 221-XXXX</P>
+      <P class="contactMe">Resume: <A href={Pdf}
           target="_blank">Download
-          Here</a></p>
-      <p class="contactMe">GitHub: <a href="https://github.com/thompson-1657"
-          target="_blank">https://github.com/thompson-1657</a></p>
-      <p class="contactMe">LinkedIn: <a href="https://www.linkedin.com/in/rachel-thompson1657"
-          target="_blank">https://www.linkedin.com/in/rachel-thompson1657</a></p>
+          Here</A></P>
+      <P class="contactMe">GitHub: <A href="https://github.com/thompson-1657"
+          target="_blank">https://github.com/thompson-1657</A></P>
+      <P class="contactMe">LinkedIn: <A href="https://www.linkedin.com/in/rachel-thompson1657"
+          target="_blank">https://www.linkedin.com/in/rachel-thompson1657</A></P>
     </div>
-  </div>
+  </Div>
     )
 
 
