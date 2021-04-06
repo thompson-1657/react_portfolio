@@ -13,9 +13,6 @@ class Portfolio extends Component {
   render() {
     return(
       <>
-      <header class="card-title">
-        <h2>Portfolio</h2>
-      </header>
       {this.state.ProjectData.map(project => (
         <ProjectCard
         name={project.name}
