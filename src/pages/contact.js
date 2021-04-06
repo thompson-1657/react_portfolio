@@ -1,7 +1,12 @@
 import React from 'react'
+import ContactCard from '../components/contactCard'
+import MyContactInfo from "../components/myContactInfo"
 
 const Contact = () => (
-  <div>Contact</div>
+  <>
+  <ContactCard />
+  <MyContactInfo />
+  </>
 )
 
 export default Contact
