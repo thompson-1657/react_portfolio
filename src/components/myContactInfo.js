@@ -5,15 +5,28 @@ import styled from "styled-components";
 const P = styled.p`
   text-align: center;
   color: #99b5b9;
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 3rem;
 `;
+
+const H2 = styled.h2`
+  text-align: center;
+  color: #99b5b9;
+  font-size: 40px;
+`;
+
 const Div = styled.div`
   background-color: white;
   width: 40vw;
-  margin: 5% auto;
-  padding: 6rem;
+  margin: 3rem auto;
   border: 6px solid #99b5b9;
   border-radius: 5px;
+  position: relative;
+  min-height: 100vh;
+
+  @media (max-width: 954px) {
+    width: 80vw;
+  }
 `;
 
 const A = styled.a`
@@ -24,6 +37,7 @@ const A = styled.a`
 const MyContactInfo = () => (
   <Div className="card" id="contact-me">
     <div className="card-body">
+      <H2 className="contactMe">Contact Me</H2>
       <P className="contactMe">Email: Thompson.1657@gmail.com</P>
       <P className="contactMe">
         Resume:{" "}

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import AboutMe from "../components/aboutme"
+import AboutMe from "../components/aboutme";
 
-const Home = () => (
-  <AboutMe />
-)
+const Home = () => <AboutMe />;
 
-export default Home
+export default Home;

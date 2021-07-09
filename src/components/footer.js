@@ -3,14 +3,13 @@ import styled from "styled-components";
 
 const Footer = styled.footer`
   background-color: #99b5b9;
-  z-index: -1;
-  position: absolute;
-  text-align: center;
+  position: relative;
+  bottom: 0;
   width: 100%;
 `;
 
 const PageFooter = () => (
-  <Footer className="container-fluid text-light text-center p-4 fixed"></Footer>
+  <Footer className="container-fluid text-light text-center p-4"></Footer>
 );
 
 export default PageFooter;
