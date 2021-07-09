@@ -1,13 +1,16 @@
-import React from 'react'
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 const Footer = styled.footer`
-    background-color: #99b5b9;
-`
+  background-color: #99b5b9;
+  z-index: -1;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+`;
 
 const PageFooter = () => (
-    <Footer className="container-fluid text-light text-center p-4 fixed">
-    </Footer>
-)
+  <Footer className="container-fluid text-light text-center p-4 fixed"></Footer>
+);
 
-export default PageFooter
+export default PageFooter;
