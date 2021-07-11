@@ -6,7 +6,7 @@ const P = styled.p`
   text-align: center;
   color: #99b5b9;
   font-size: 20px;
-  margin-top: 3rem;
+  margin-top: 5rem;
 `;
 
 const H2 = styled.h2`
@@ -17,7 +17,7 @@ const H2 = styled.h2`
 
 const Div = styled.div`
   background-color: white;
-  width: 40vw;
+  width: 55vw;
   margin: 3rem auto;
   border: 6px solid #99b5b9;
   border-radius: 5px;

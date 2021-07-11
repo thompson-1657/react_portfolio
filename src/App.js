@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/nav";
 import Home from "./pages/home";
 import Portfolio from "./pages/portfolio";
-import Contact from "./pages/contact";
+// import Contact from "./pages/contact";
 import PageFooter from "./components/footer";
 import "../src/App.css";
 
@@ -11,9 +11,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/contact">
+        {/* <Route path="/contact">
           <Contact />
-        </Route>
+        </Route> */}
         <Route path="/portfolio">
           <Portfolio />
         </Route>
