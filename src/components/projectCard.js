@@ -5,19 +5,17 @@ const Img = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
-  border-style: solid;
-  color: #99b5b9;
-  border-width: 5px;
+  width: 80%;
 `;
 const Div = styled.div`
   height: 450px;
   width: 850px;
-  background-color: white;
+  background-color: #99b5b9;
+  opacity: 0.98;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100vw;
   flex: none;
   flex-wrap: inherit;
   margin-bottom: 35px;
@@ -38,9 +36,10 @@ const A = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #99b5b9;
+  color: white;
   padding: 0;
-  margin-top: 9px;
+  margin-top: 10%;
+  text-decoration: none;
 `;
 const H3 = styled.h3`
   color: #99b5b9;
@@ -55,17 +54,24 @@ const ProjectCard = (props) => {
           <H3 class="card-title">{props.name}</H3>
         </strong>
         <div className="col-sm">
-          <Img src={props.image} alt={props.name} />
+          {/* <Img src={props.image} alt={props.name} /> */}
           <A
             href={props.deployedSite}
             onClick={props.deployedSite}
             class="btn btn-primary"
+            target="_blank"
           >
-            Link to Deployed site
+            <Img src={props.image} alt={props.name} />
+            {/* Link to Deployed site */}
           </A>
         </div>
         <div>
-          <A href={props.github} onClick={props.github} class="btn btn-primary">
+          <A
+            href={props.github}
+            onClick={props.github}
+            class="btn btn-primary"
+            target="_blank"
+          >
             Github Repository
           </A>
         </div>
