@@ -1,7 +1,7 @@
 body {
   background-image: url("https://images.squarespace-cdn.com/content/v1/58f8719c20099e4ee8f00783/1561365674216-51KS94DNSF5TCYDN7WWW/ke17ZwdGBToddI8pDm48kEpF2lptGuxDReiKcVMPbmR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ooWhOa5cxQSJsU3rXf8luVi8CZsBTpJO3RpsufHUTIS6zFvlOde1o12z2ix0Te8jg/Wallpaper-Chloe-Hall-July-19-Small-File.jpg?format=1500w");
   /* background-size: cover; */
-  background-repeat: no-repeat;
+
   background-attachment: fixed;
   height: 100vh;
 }
